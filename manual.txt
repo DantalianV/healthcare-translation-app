@@ -1,0 +1,40 @@
+HealthTranslate - User Reference Manual
+=======================================
+
+1. Overview
+-----------
+HealthTranslate is an AI-powered prototype designed to facilitate real-time, accurate communication between healthcare professionals and patients who speak different languages. It leverages Generative AI to ensure medical terminology is correctly understood and translated.
+
+2. Key Features
+---------------
+* Real-time Speech Recognition: Captures voice input directly from the browser.
+* Medical-Grade Translation: Uses DeepSeek R1 (via OpenRouter) to analyze context and correct phonetic errors.
+* Text-to-Speech (TTS): Reads out translations in the target language accent.
+* Dynamic Language Detection: Automatically populates language options based on system availability.
+* Privacy-Centric: No data persistence; stateless processing.
+
+3. Usage Guide
+--------------
+Step 1: Setup
+Open the application in a Chromium-based browser (Chrome, Edge). Ensure microphone permissions are granted.
+
+Step 2: Select Languages
+Use the dropdowns to select the Source Language (Input) and Target Language (Output).
+
+Step 3: Dictate
+Click the "Dictate" button and speak clearly. The app will transcribe speech in real-time.
+
+Step 4: Translate
+Stop recording or click "Translate". The AI will process and correct the text.
+
+Step 5: Listen
+Click the "Listen" icon to play the audio translation.
+
+4. Privacy & Limitations
+------------------------
+* Browser Compatibility: Optimized for Chromium-based browsers.
+* Voice Availability: Depends on OS/Browser installed voices.
+* AI Latency: Dependent on API load (Free Tier).
+* Privacy: Prototype only. Do not input real PII.
+
+Generated for HealthTranslate Prototype
